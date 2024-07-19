@@ -5,41 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/responsive.css" />
     <title>Fitness Shop</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <div class="container">
-          <h1 class="logo btn-primary">Fitness</h1>
-          <ul>
-            <li>
-              <a href="#" class="btn">Home</a>
-            </li>
-            <li>
-              <a href="#">Service</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
+    <header class="header bg-gradient-primary">
+      <div class="container">
+        <nav class="navbar">
+          <h2 class="text-primary">Fitness</h2>
+          <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
           </ul>
+          <a href="#" class="bar-menu"
+            ><span class="material-symbols-outlined"> menu </span></a
+          >
+        </nav>
+      </div>
+      <div class="container hero text-secondary">
+        <div class="left">
+          <h1>Get body in <span>shape</span>& stay healthy</h1>
+          <p>
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="btn">
+            <button>Join Club Now!</button>
+            <button>Download App</button>
+          </div>
         </div>
-      </nav>
-      <section class="hero">
-        <div class="hero-left"></div>
-        <div class="hero-right"></div>
-      </section>
+        <div class="right">
+          <img src="./images/Images-2.png" alt="" />
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <!-- change-habit section -->
+      <section class="container change-habit">
+        <div class="habit-change-content">
+          <div class="change-babit title">
+            <h2>Change Your Habits</h2>
+            <p>
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
+          </div>
+          <div class="change-habit-image">
+            <div class="images-component">
+              <img src="./images/image-2.png" alt="" />
+              <h4>Movement</h4>
+              <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="images-component">
+              <img src="./images/image-3.png" alt="" />
+              <h4>Movement</h4>
+              <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="images-component">
+              <img src="./images/image-4.png" alt="" />
+              <h4>Movement</h4>
+              <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="images-component">
+              <img src="./images/image-5.png" alt="" />
+              <h4>Movement</h4>
+              <p>We believe fitness should be accessible to everyone</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
