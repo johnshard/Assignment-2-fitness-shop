@@ -18,4 +18,17 @@
   .header .bar-menu {
     display: inline-block;
   }
+
+  .change-habit-image {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .change-babit-title h2 {
+    font-size: 2rem;
+  }
+  .change-babit-title h2,
+  .change-babit-title p,
+  .box {
+    padding: 30px;
+  }
 }
