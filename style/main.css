@@ -350,9 +350,9 @@ td:last-of-type {
   background-color: rgb(237 238 242);
 } */
 
-tfoot th {
+/* tfoot th {
   text-align: right;
-}
+} */
 
 /* Bmi Chart title */
 .bmi-chart-title {
