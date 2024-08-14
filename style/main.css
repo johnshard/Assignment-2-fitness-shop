@@ -244,16 +244,24 @@ img {
 
 /* exercise-training starts */
 .exercise-training {
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
   min-height: 500px;
 }
 .grid-image-container {
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
   min-height: 400px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
 }
+.exercise-training-title {
+  font-size: 3rem;
+}
+
+.exercise-training p {
+  margin-bottom: 58px;
+}
+
 .grid-image-container img {
   width: 100%;
   height: auto;
