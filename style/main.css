@@ -396,7 +396,7 @@ img {
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-start;
-  /* padding: 20px; */
+  padding: 20px;
 }
 .grid-image-container .item4 {
   grid-column: 1 / span 4;
@@ -408,6 +408,11 @@ img {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
 }
 .grid-image-container .item5 {
   grid-column: 5 / span 4;
@@ -419,6 +424,11 @@ img {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  padding: 20px;
 }
 .grid-image-container .item6 {
   grid-column: 9 / span 4;
