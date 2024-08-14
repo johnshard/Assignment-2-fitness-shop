@@ -302,6 +302,7 @@ img {
 }
 
 .bmi-calculator {
+  padding: 40px 0;
   /* border: 2px solid rebeccapurple; */
   height: 386px;
   display: flex;
@@ -391,4 +392,53 @@ tfoot th {
 .form-field input[type="text"] {
   font-size: 1rem;
   border: none;
+}
+
+/* Meet Our Team */
+.meet-our-team {
+  border: 2px solid sandybrown;
+  height: 782px;
+  margin: 50px 0;
+}
+.meet-our-team-profile {
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.profile-1 {
+  /* background: #e6533c; */
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 6;
+}
+.profile-2 {
+  /* background: #83dcf4; */
+  grid-column: 5 / span 4;
+  grid-row: 1 / span 6;
+}
+.profile-3 {
+  /* background: #ecf483; */
+  grid-column: 9 / span 4;
+  grid-row: 1 / span 6;
+}
+.profile-4 {
+  /* background: #ecf483; */
+  grid-column: 1 / span 4;
+  grid-row: 7 / span 6;
+}
+.profile-5 {
+  /* background: #d883f4; */
+  grid-column: 5 / span 4;
+  grid-row: 7 / span 6;
+}
+.profile-6 {
+  /* background: #0f9b8f; */
+  grid-column: 9 / span 4;
+  grid-row: 7 / span 6;
+}
+
+.meet-our-team-profile img {
+  border-radius: 18px;
 }
