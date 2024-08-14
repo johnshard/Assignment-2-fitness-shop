@@ -450,3 +450,19 @@ td:last-of-type {
 .meet-our-team-profile img {
   border-radius: 18px;
 }
+
+/* Footer Section */
+.footer-section {
+  display: flex;
+}
+.fitness {
+  height: 176px;
+  width: 50%;
+  border: 2px solid salmon;
+}
+.fitness-text {
+  border: 2px solid rgb(189, 250, 114);
+  width: 50%;
+  display: flex;
+  gap: 200px;
+}
