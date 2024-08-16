@@ -1,21 +1,125 @@
-/* 1. Small device: upto 576px */
-/* 2. Medium device: 576px to 992px */
-/* 3. Large Device: above 993px */
-
-/* max-width: 900px ---> Apply Css Rule under 900px */
-
-/* @media screen and (min-width: 993px) {
+/* max-width: 900px ---> Apply Css Rule under 900px
+@media screen and (min-width: 993px) {
 } */
-
 /* Default: Extra-small devices such as small phones (less than 640px) */
 
-/* Small devices such as large phones (640px and up) */
-@media only screen and (max-width: 640px) {
+/* Large Device: above 993px */
+@media screen and (min-width: 992px) {
+  /* body {
+    background: green;
+  } */
+}
+
+/* Medium device: 576px to 992px */
+@media (min-width: 577px) and (max-width: 992px) {
+  .navbar {
+    margin: 0 45px;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 744px;
+    height: 1087px;
+  }
+  .video-tutorial {
+    position: absolute;
+    bottom: 85px;
+    left: 0px;
+  }
+
+  .free-video-workout {
+    position: absolute;
+    /* top: 130px;
+    left: 200px; */
+  }
+  /* .left {
+    margin: 0 auto;
+  } */
+  .right {
+    margin: 0 auto;
+  }
+
+  /* habit Change Section */
+  .habit-change-content {
+    /* border: 2px solid brown; */
+    min-height: 750px;
+    text-align: center;
+    margin: 0 90px;
+  }
+
+  .change-habit-image {
+    max-height: 566px;
+    /* border: 2px solid red; */
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .box {
+    width: 231px;
+    height: 274px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; */
+  }
+  .change-babit-title {
+  }
+
+  .habit-change-content p {
+    font-size: 0.7rem;
+    margin: 0 50px;
+  }
+  .extra-mile {
+    margin: 0 auto;
+    height: 400px;
+    width: 684px;
+  }
+  .extra-mile-content {
+    height: 308px;
+    width: 263px;
+  }
+  .extra-mile-content h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Small Device */
+@media (max-width: 576px) {
   .header .nav-menu {
     display: none;
   }
   .header .bar-menu {
     display: inline-block;
+  }
+  /* hero section */
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 744px;
+    height: 1087px;
+  }
+  .video-tutorial {
+    position: absolute;
+    bottom: 85px;
+    left: 0px;
+  }
+
+  .free-video-workout {
+    position: absolute;
+    /* top: 130px;
+    left: 200px; */
+  }
+  .left {
+    margin: 0 auto;
+  }
+  .right {
+    margin: 0 auto;
+  }
+
+  .habit-change-content {
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .change-habit-image {
@@ -30,19 +134,8 @@
   .box {
     padding: 30px;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .hero {
-    flex-direction: column;
+  .extra-mile {
+    margin: 0 auto;
+    height: 2488px;
   }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  ...;
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  ...;
 }
